@@ -5,7 +5,8 @@ CPPFLAGS := -Iinclude -MD
 CFLAGS := -Wall -O2
 OBJS :=			\
 	src/main.o	\
-	src/file.o
+	src/file.o	\
+	src/tools.o
 
 # pthreads
 CPPFLAGS += -pthread
